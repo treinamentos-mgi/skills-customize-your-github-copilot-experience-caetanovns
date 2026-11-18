@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Minhas tarefas</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <main class="workspace">
+      <header class="page-header">
+        <p class="eyebrow">REST API CLIENT</p>
+        <h1>Minhas tarefas</h1>
+        <p class="intro">Uma lista conectada à API FastAPI.</p>
+      </header>
+
+      <form id="task-form" class="task-form">
+        <label for="task-title">Nova tarefa</label>
+        <div class="form-row">
+          <input
+            id="task-title"
+            name="title"
+            type="text"
+            maxlength="120"
+            placeholder="Ex.: Revisar os endpoints"
+            required
+          />
+          <button type="submit">Adicionar</button>
+        </div>
+      </form>
+
+      <section class="task-section" aria-labelledby="task-heading">
+        <div class="section-heading">
+          <h2 id="task-heading">Tarefas</h2>
+          <span class="section-mark" aria-hidden="true"></span>
+        </div>
+        <p id="status" class="status" role="status" aria-live="polite">Carregando tarefas...</p>
+        <ul id="task-list" class="task-list"></ul>
+      </section>
+    </main>
+  </body>
+</html>

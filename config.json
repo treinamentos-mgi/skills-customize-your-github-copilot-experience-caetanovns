@@ -72,6 +72,35 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "fastapi-web-client",
+      "title": "Building a Web Client for a REST API",
+      "description": "Build a browser-native JavaScript client for a FastAPI task API using Fetch and CRUD operations.",
+      "path": "assignments/fastapi-web-client",
+      "dueDate": "2026-11-25",
+      "attachments": [
+        {
+          "name": "FastAPI Server",
+          "file": "starter-code.py",
+          "type": "python"
+        },
+        {
+          "name": "HTML Interface",
+          "file": "static/index.html",
+          "type": "html"
+        },
+        {
+          "name": "CSS Styles",
+          "file": "static/style.css",
+          "type": "txt"
+        },
+        {
+          "name": "JavaScript Starter",
+          "file": "static/app.js",
+          "type": "txt"
+        }
+      ]
     }
   ]
 }
